@@ -1,0 +1,28 @@
+# === Java / Maven ===
+target/
+*.class
+*.jar
+*.war
+
+# === IDE ===
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# === React / Node ===
+frontend/node_modules/
+frontend/dist/
+
+# === Built React files (generated during build) ===
+src/main/resources/static/app/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Environment ===
+.env
+*.env.local
