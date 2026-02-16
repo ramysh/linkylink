@@ -46,7 +46,7 @@ This creates `mvnw`, `mvnw.cmd`, and the `.mvn/` directory.
 cd /Users/rpurigel/personal/linkylink
 
 # Terminal 1: Start the backend
-export JWT_SECRET="my-super-secret-key-at-least-32-chars-long!!"
+export JWT_SECRET="$(openssl rand -base64 32)"
 mvn spring-boot:run
 
 # Terminal 2: Start the React dev server
